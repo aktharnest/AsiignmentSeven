@@ -1,0 +1,29 @@
+﻿body {
+    
+}
+.table1, .th1, .td1 {
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+.th1 {
+    background-color: yellow;
+    align-items: center;
+    width: 150px;
+}
+.td1 {
+    background-color: green;
+    color: white;
+    height: 50px;
+}
+.table2, .th2, .td2 {
+    height:50px;
+    
+    border-collapse: collapse;
+}
+.th2 {
+    text-align:left;
+    width: 200px;
+}
+.tr2:nth-child(odd) {
+    background: #00ff21;
+}
